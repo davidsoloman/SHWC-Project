@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Name :"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/labelLogin"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="38dp"
+            android:ems="10"
+            android:id="@+id/dialogLogin"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Password:"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/labelPW"
+            />
+
+
+        <EditText
+            android:layout_width="229dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:id="@+id/dialogPW"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Type :"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/labelType"
+            />
+
+
+        <Spinner
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="45dp"
+            android:id="@+id/dialogType"
+            android:background="@color/blanc"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:id="@+id/button_ok"
+        android:layout_marginLeft="20dp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/button_cancel"
+         />
+</LinearLayout>
+</RelativeLayout>

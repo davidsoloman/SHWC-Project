@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:columnCount="2"
+    android:columnWidth="320dp"
+    android:orientation="vertical"
+    android:rowCount="20"
+    android:stretchMode="columnWidth"
+    android:id="@+id/toooot">
+<LinearLayout
+    android:layout_width="180dp"
+    android:layout_height="33dp"
+    android:id="@+id/list_beacon_trouve_layout"
+    android:layout_column="0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_lt_beacon"
+        android:text="Beacons"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:id="@+id/list_beacon_trouve"
+        android:layout_row="1"
+        android:layout_column="0">
+    <ListView
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/beacons_list"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="180dp"
+    android:layout_height="20dp"
+    android:id="@+id/list_equipements_layout"
+    android:layout_row="0"
+    android:layout_column="1"
+    android:layout_marginLeft="-110dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_equipement_trouve"
+        android:text="Equipements"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_width="204dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-115dp"
+        android:id="@+id/label_lt_equipement"
+        android:layout_row="1"
+        android:layout_column="1">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/equipements_list"
+        />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="295dp"
+    android:layout_height="20dp"
+    android:id="@+id/title_salles_trouve"
+    android:layout_row="2"
+    android:layout_column="0"
+    android:layout_columnSpan="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salles_trouve"
+        android:text="Salles"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"/>
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="200dp"
+        android:id="@+id/list_salles_trouve"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="1">
+
+        <ListView
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/salles_list"
+            />
+
+</LinearLayout>
+</GridLayout>

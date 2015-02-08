@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shwc.iml" filepath="$PROJECT_DIR$/Shwc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shwc_final.iml" filepath="$PROJECT_DIR$/shwc_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shwc_final1.iml" filepath="$PROJECT_DIR$/shwc_final1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shwc_pfe.iml" filepath="$PROJECT_DIR$/shwc_pfe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wear/wear.iml" filepath="$PROJECT_DIR$/wear/wear.iml" />
+    </modules>
+  </component>
+</project>
+

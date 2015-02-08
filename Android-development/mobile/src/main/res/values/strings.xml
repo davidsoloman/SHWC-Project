@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SHWC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_quit">Quit</string>
+    <string name="test">Trouver</string>
+    <string name="edit">Nom de la salle</string>
+    <string name="toto">toto</string>
+    <string name="Extras_Beacon">extras beacon</string>
+    <string name="log">Login :</string>
+    <string name="pwd">Password :</string>
+    <string name="logout">Log Out</string>
+    <string name="box_name">Domotic Box : </string>
+
+
+    <color name="gris">#84607A9B</color>
+    <color name="bleu">#017ac3</color>
+    <color name="blanc">#FFFFFFFF</color>
+
+
+    <string-array name="nav_drawer_items">
+        <item>HOME</item>
+        <item>DEFINIR SCENARIOS</item>
+        <item>REGLAGE SALLE</item>
+        <item>UTILISATEURS</item>
+
+    </string-array>
+
+
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/apex</item>
+        <item>@drawable/expensemanager</item>
+        <item>@drawable/devtools</item>
+        <item>@drawable/friendcaster</item>
+
+    </array>
+
+    <string-array name="user_list_item">
+        <item>admin</item>
+        <item>Alass</item>
+        <item>Pi</item>
+    </string-array>
+
+    <string-array name="user_type_dialog">
+        <item>admin</item>
+        <item>utilisateur</item>
+    </string-array>
+
+
+    <array name="userIcons">
+        <item>@drawable/sys_raydude</item>
+    </array>
+
+    <array name="scenarioIcons">
+        <item>@drawable/expensemanager</item>
+    </array>
+
+    <array name="userIcons1">
+        <item>@drawable/sys_x</item>
+    </array>
+
+    <array name="resicon">
+        <item>@android:drawable/ic_dialog_alert</item>
+        <item>@android:drawable/ic_dialog_dialer</item>
+        <item>@android:drawable/ic_dialog_email</item>
+        <item>@android:drawable/ic_dialog_info</item>
+        <item>@android:drawable/ic_dialog_map</item>
+        <item>@android:drawable/ic_menu_camera</item>
+        <item>@android:drawable/ic_menu_compass</item>
+        <item>@android:drawable/ic_menu_gallery</item>
+        <item>@android:drawable/ic_menu_my_calendar</item>
+        <item>@android:drawable/ic_menu_myplaces</item>
+        <item>@android:drawable/ic_menu_slideshow</item>
+        <item>@android:drawable/ic_menu_today</item>
+    </array>
+    <array name="restext">
+        <item>"alert"</item>
+        <item>"dialer"</item>
+        <item>"email"</item>
+        <item>"info"</item>
+        <item>"map"</item>
+        <item>"camera"</item>
+        <item>"compass"</item>
+        <item>"gallery"</item>
+        <item>"calendar"</item>
+        <item>"myplaces"</item>
+        <item>"slideshow"</item>
+        <item>"today"</item>
+    </array>
+    <array name="beaconimg">
+        <item>@drawable/estimote</item>
+    </array>
+    <array name="beaconaddr">
+        <item>"bf25B093493T922gbncVVB"</item>
+        <item>"bf25B093493T922trurVVB"</item>
+        <item>"bf25B093493T922azeeVVB"</item>
+
+    </array>
+    <array name="deviceicon">
+        <item>@android:drawable/ic_dialog_info</item>
+    </array>
+    <array name="devicename">
+        <item>"bf25B093493T922gbncVVB"</item>
+        <item>"bf25B093493T922trurVVB"</item>
+        <item>"bf25B093493T922azeeVVB"</item>
+    </array>
+    <array name="roomname">
+        <item>"salon"</item>
+        <item>"WC"</item>
+        <item>"cuisine"</item>
+    </array>
+
+</resources>

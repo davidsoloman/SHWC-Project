@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/gris"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/mainlogin">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log"
+        android:clickable="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/log"
+        android:textColor="#FF000000"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/pwd"
+        android:layout_below="@+id/log"
+        android:clickable="false"
+        android:id="@+id/pwd"
+        android:textColor="#FF000000"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_marginStart="120dp"
+        android:layout_alignBaseline="@id/log"
+        android:inputType="text"
+        android:background="@color/blanc"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_marginStart="120dp"
+        android:layout_alignBaseline="@id/pwd"
+        android:background="@color/blanc"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/box_name"
+        android:clickable="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/box_name"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/pwd"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:id="@+id/box_choice"
+        android:layout_marginStart="120dp"
+        android:layout_below="@id/box_name"
+        android:layout_marginTop="-20dp"
+        android:background="@color/blanc"
+        android:layout_alignBottom="@+id/box_name" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LogInButton"
+        android:layout_below="@+id/box_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:src="@drawable/bouton_connexion"
+        android:background="@null" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+
+        <!-- <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item> -->
+       <!-- <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item> -->
+        <!-- Support library compatibility -->
+        <!-- <item name="actionBarStyle">@style/MyActionBar</item> -->
+
+
+          <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/bleu</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+
+    <!--
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blue</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    -->
+
+
+
+</resources>

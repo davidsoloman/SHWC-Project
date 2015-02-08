@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivityPhone">
+    <item android:id="@+id/quit" android:title="@string/action_quit"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/log_out" android:title="@string/logout"
+        android:showAsAction="never"/>
+
+</menu>
