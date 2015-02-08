@@ -1,8 +1,8 @@
 # SHWC-Project
 
 Description : 
-SHWC or Smart Home Wearable Controler was created for a final project in the ECE Paris. 
-It's a engineering school specializing in new technologies.
+SHWC or Smart Home Wearable Controler was created for a final project in the ECE Paris School. 
+It's an engineering school specializing in new technologies.
 Our goal was to control smart home with an Android wear device and make use geolocalisation (iBeacons) to trigger some scenarios.
 You can contribute to our project and make our common dream real.
 
@@ -14,3 +14,5 @@ Server-development Folder : Contains all files of the server part. You configure
 web server. I refer you to the install.txt file wich you can found on the root folder of our repository.
 
 
+Copyright (c) 2015 Pierre-Yves Rancien, Alassane Diagne, Axel Francart, Clément Casasreales, Andreas Roche
+Copyright (c) 2013 Estimote, Inc.
