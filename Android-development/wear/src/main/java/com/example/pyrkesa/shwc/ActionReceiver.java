@@ -1,5 +1,31 @@
 package com.example.pyrkesa.shwc;
 
+/*
+ * ActionReceiver : This class is used to receive actions from the MainActivity. The actions are sent by the notification.
+ * When the user push to an action an intent is sent to this receiver and we send the cmd received to the smartphone.
+ *
+ * Copyright (c) 2015 Pierre-Yves Rancien, Alassane Diagne, Axel Francart, Clément Casasreales, Andreas Roche
+ *
+ * Copyright (c) 2013 Estimote, Inc.
+ *
+ * This file is part of SHWC.
+ *
+ * SHWC is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * SHWC is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with SHWC. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Contact : projetshwc@gmail.com
+ */
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +40,6 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.Wearable;
 
-/**
- * Created by Alassane on 01/02/2015.
- */
 public class ActionReceiver extends BroadcastReceiver implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
     public String EXTRA_CMD = "EXTRA_CMD";
     public static final String PATH_CMD_DEVICE = "/cmd/device";

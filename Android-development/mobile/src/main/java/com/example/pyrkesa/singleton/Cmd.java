@@ -4,7 +4,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /*
- * Cmd : This class is used is used to create a cmd for the domotic box. For example for the Zibase Box for a actuator you can
+ * Cmd : This class is used is used to create a cmd for the domotic box. For example for the Zibase Box for an actuator you can
  * create a object like this new CMD("SET","0") and it will be a part of the final json string created by a device object.
  * it's better to generate this cmd directly from the wear part of the application.
  *
