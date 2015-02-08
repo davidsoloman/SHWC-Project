@@ -1,9 +1,13 @@
+package com.example.pyrkesa.shwc;
+
 /*
  * MainActivity : This class is used to manage iBeacon service and all fragments of the application.
  * Moreover the communication with the Android Wear devices is performed on this file thanks to the
  * Google API.
  *
  * Copyright (c) 2015 Pierre-Yves Rancien, Alassane Diagne, Axel Francart, Clément Casasreales, Andreas Roche
+ *
+ * Copyright (c) 2013 Estimote, Inc.
  *
  * This file is part of SHWC.
  *
@@ -22,8 +26,6 @@
  *
  * Contact : projetshwc@gmail.com
  */
-
-package com.example.pyrkesa.shwc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,9 +89,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by pyrkesa on 28/01/2015.
- */
 public class MainActivity extends Activity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, MessageApi.MessageListener{
 
     private DrawerLayout mDrawerLayout;
