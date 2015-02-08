@@ -11,7 +11,7 @@ You can use our project and modify it if you keep our copyright.
 Content:
 Android-development Folder : Contains all files of our Android project. You can use Android studio to open it.
 Server-development Folder : Contains all files of the server part. You configure and send all those files on your
-web server. I refer you to the install.txt file wich you can found on the root folder of our repository.
+web server. I refer you to the install.txt file that you can found on the root folder of our repository.
 
 
 Copyright (c) 2015 Pierre-Yves Rancien, Alassane Diagne, Axel Francart, Clément Casasreales, Andreas Roche
