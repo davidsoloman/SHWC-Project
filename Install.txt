@@ -48,7 +48,7 @@ Local network
 -------------
 
  - All the components, domotic box, smartphone and shwc server have to be in the same network to work together.
- - The shwcserver in a raspberry can be authenticate automatically with a zeroconf service, this function is implemeted and have to be enabled on
+ - The shwcserver hosted on raspberry can be authenticate automatically with a zeroconf service, this function is implemeted and have to be enabled on
  the LoginActivity of the smartphone app. The LoginActivity use an handler from the service NSD define in the class FindServicesNSD. If you can't use this function you have to define the ip value of your raspberry directly in the LoginActivity class. (Variable: model.api_url). Avahi-daemon is needed on the shwcserver.
 
 
