@@ -1,7 +1,7 @@
 ![alt tag](https://raw.githubusercontent.com/shwc-team/SHWC-Project/master/Android-development/mobile/src/main/res/drawable-hdpi/logo2.png)
 
 Description : 
-SHWC or Smart Home Wearable Controler was created for a final project in the ECE Paris School. 
+SHWC or Smart Home Wearable Controler has been created for a final project at the ECE Paris School. 
 It's an engineering school specializing in new technologies.
 Our goal was to control smart home with an Android wear device and use geolocalisation (iBeacons) to trigger some scenarios.
 You can contribute to our project and make our common dream real.
