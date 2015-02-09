@@ -1,4 +1,4 @@
-# SHWC-Project
+# SHWC-Project ![alt tag](https://raw.githubusercontent.com/shwc-team/SHWC-Project/master/Android-development/mobile/src/main/res/drawable-hdpi/logo2.png)
 
 Description : 
 SHWC or Smart Home Wearable Controler was created for a final project in the ECE Paris School. 
